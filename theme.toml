@@ -1,0 +1,17 @@
+name = "tactical-documentation"
+license = ""
+licenselink = ""
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = ""
+  homepage = ""
+
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

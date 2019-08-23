@@ -1,0 +1,7 @@
+* "Tactical Documentation" - a hugo theme.
+
+You probably shouldn't use it, I have no idea how this works and have
+basically just cargo culted this together from scraps I've found
+elsewhere.
+
+The =static/js/= folder contains a submodule to the Mathjax repo.
