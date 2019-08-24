@@ -39,11 +39,11 @@
     color:#1d1313;
     max-width:700px;
     margin:auto;
+    counter-reset: sidenote-counter;
   }
 
 
   label.sidenote-number { display: inline; }
-
 
   .sidenote { float: right;
                          clear: right;
@@ -69,13 +69,18 @@
                            left: 0.1rem; }
   
   .sidenote:before { content: counter(sidenote-counter) " ";
-                     font-size: 10px;
+                     font-size: 7px;
                      top: -0.5rem; }
   
   blockquote .sidenote, { margin-right: -82%;
                                                  min-width: 59%;
                                                  text-align: left; }
   
+  .marginnote > code,
+  .sidenote > code {
+    font-size: 10px; 
+    padding: 2px;
+  }
 
 
   p {
